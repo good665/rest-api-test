@@ -12,6 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor // final 로 선언된 클래스를 자동으로 생성
 @RestController // JSON으로 응답함을 선언
 public class SearchRequestController {
+		
     private final NaverShopSearch naverShopSearch;
 
     @GetMapping("/api/search")

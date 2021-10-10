@@ -73,6 +73,10 @@
 						<li class="nav-item">
 							<a class="nav-link" href="${pageContext.request.contextPath}/customer/register">Register</a>
 						</li>
+						</li>	
+						<li class="nav-item">
+							<a class="nav-link" href="${pageContext.request.contextPath}/prgms">program</a>
+						</li>
 					</ul>
 				</div>
 			</nav>

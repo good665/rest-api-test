@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 public class ProductRestController {
 
-    private final ProductService productService;
+	private final ProductService productService;
     private final ProductNaverRepository productRepository;
     
  // 관심 상품 조회하기

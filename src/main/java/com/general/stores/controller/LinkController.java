@@ -97,6 +97,12 @@ public class LinkController {
 		return "about-us";
 	}
 
+	@GetMapping("/prgms")
+	public String prgms() {
+		return "/naver/mainpage";
+	}
+	
+
 	@GetMapping("/page404")
 	public String pageNotFound() {
 		return "page404";
